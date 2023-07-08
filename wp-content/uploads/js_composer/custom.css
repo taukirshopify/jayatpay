@@ -1,0 +1,56 @@
+/*-- Add space above blue circles in footer --*/
+/*@media screen and (min-width: 1024px) {
+.site-content {
+    padding-bottom: 100px;
+}
+} */
+
+
+/*-- Align "Canspan.com" in footer to the Right --*/
+.canspan-right {
+    float: right;
+    clear: both;
+}
+
+@media screen and (max-width: 767px) {
+	.canspan-right {
+    float: none;
+    clear: both;
+    }
+}
+
+
+
+/*-- Customize Cookie Container --*/
+.cookie-notice-container {
+    padding: 15px;
+}
+
+#cn-notice-text {
+    display: block;
+    padding-bottom: 15px;
+}
+
+
+
+
+/*-- Center items in Social Footer Menu --*/
+.menu-footer-container ul, .menu-social-container ul {
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+    text-align: center;
+}
+
+/*-- ensure Social footer menu remains at this size all the time --*/
+.menu-social-container a {
+    font-size: 0.9em;
+    line-height: 1;
+    padding: 5px 8px;
+}
+
+
+/*-- Keep Sub-footer on the left on Desktop/Tablet --*/
+.menu-footer-container ul {
+    text-align: left;
+}
